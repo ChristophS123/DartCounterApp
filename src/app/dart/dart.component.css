@@ -1,0 +1,80 @@
+
+
+td {
+    width: 20%;
+    height: 10vh;
+    font-size: 25px;
+    text-align: center;
+}
+
+td:hover {
+    cursor: pointer;
+    background-color: rgb(88, 88, 88);
+}
+
+table {
+    width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: gray;
+    position: relative;
+    bottom: 180px;
+    margin-bottom: 0px;
+}
+
+#clear {
+    background-color: red;
+}
+
+#clear:hover {
+    background-color: rgb(146, 0, 0);
+}
+
+#ok {
+    background-color: rgb(0, 255, 0);
+}
+
+#ok:hover {
+    background-color: rgb(0, 124, 0);
+}
+
+.shortcuts {
+    background-color: rgb(80, 80, 80);
+}
+
+.shortcuts:hover {
+    background-color: rgb(47, 47, 47);
+}
+
+#playerscore {
+    width: 50%;
+    background-color: green;
+    height: 200px;
+    color: white;
+    font-size: 100px;
+    text-align: center;
+}
+
+#botscore {
+    width: 50%;
+    background-color: rgb(93, 93, 93);
+    height: 200px;
+    margin-left: 50%;
+    position: relative;
+    bottom: 200px;
+    color: white;
+    font-size: 100px;
+    text-align: center;
+}
+
+
+#screen {
+    width: 30%;
+    height: 50px;
+    background-color: rgb(93, 93, 93);
+    margin-left: 35%;
+    position: relative;
+    bottom: 190px;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}

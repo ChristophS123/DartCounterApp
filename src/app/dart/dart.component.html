@@ -1,0 +1,48 @@
+
+    <div id="playerscore">{{scorePlayer}}</div>
+
+    <div id="botscore">{{scoreBot}}</div>
+
+    <div id="screen">
+        {{save}}
+    </div>
+
+    <div id="keyboard">
+
+        <table>
+
+            <tr>
+                <td class="shortcuts" (click) = "changePlayerNumber(26)">26</td>
+                <td (click) = "saver(1)">1</td>
+                <td (click) = "saver(2)">2</td>
+                <td (click) = "saver(3)">3</td>
+                <td class="shortcuts" (click) = "changePlayerNumber(60)">60</td>
+            </tr>
+
+            <tr>
+                <td class="shortcuts" (click) = "changePlayerNumber(41)">41</td>
+                <td (click) = "saver(4)">4</td>
+                <td (click) = "saver(5)">5</td>
+                <td (click) = "saver(6)">6</td>
+                <td class="shortcuts" (click) = "changePlayerNumber(85)">85</td>
+            </tr>
+
+            <tr>
+                <td class="shortcuts" (click) = "changePlayerNumber(45)">45</td>
+                <td (click) = "saver(7)">7</td>
+                <td (click) = "saver(8)">8</td>
+                <td (click) = "saver(9)">9</td>
+                <td class="shortcuts" (click) = "changePlayerNumber(100)">100</td>
+            </tr>
+
+            <tr>
+                <td class="shortcuts"></td>
+                <td id="clear" (click) = "clear()">CLR</td>
+                <td (click) = "saver(0)">0</td>
+                <td id="ok" (click) = "ok()">OK</td>
+                <td class="shortcuts"></td>
+            </tr>
+
+        </table>
+
+    </div>
